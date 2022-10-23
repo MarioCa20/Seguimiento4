@@ -12,7 +12,7 @@ public InmuebleVivienda(int identificadorInmobiliario, int area, String direccio
 
     void imprimir() {
         super.imprimir(); // Invoca al método imprimir de la clase padre
-        System.out.println("Número de habitaciones = " + numeroHabitaciones);
-        System.out.println("Número de baños = " + numeroBaños);
+        System.out.println("Numero de habitaciones = " + numeroHabitaciones);
+        System.out.println("Numero de baoos = " + numeroBaños);
     }
 }

@@ -14,7 +14,7 @@ package Inmuebles;
         
         void imprimir() {
             super.imprimir();
-            System.out.println("Valor de la administración = " + valorAdministracion);
+            System.out.println("Valor de la administracion = " + valorAdministracion);
             System.out.println("Tiene piscina? = " + tienePiscina);
             System.out.println("Tiene campos deportivos? = " + tieneCamposDeportivos);
             System.out.println();

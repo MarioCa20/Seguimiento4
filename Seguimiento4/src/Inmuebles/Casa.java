@@ -12,6 +12,6 @@ public class Casa extends InmuebleVivienda {
 
     void imprimir() {
         super.imprimir(); // Invoca al método imprimir de la clase padre
-        System.out.println("Número de pisos = " + numeroPisos);
+        System.out.println("Numero de pisos = " + numeroPisos);
     }
 }

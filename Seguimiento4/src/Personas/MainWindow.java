@@ -147,7 +147,7 @@ public class MainWindow extends JFrame implements ActionListener{
             }
             
             if (evento.getSource() == borrarLista) { /* Si se pulsa el botón borrar lista */
-                lista.borrarLista(); // Se invoca borrar lista
+                borrarLista(); // Se invoca borrar lista
             }
         }
 
@@ -185,5 +185,10 @@ public class MainWindow extends JFrame implements ActionListener{
             if (indice >= 0) { // Si la posición existe
                 modelo.removeElementAt(indice); /* Se elimina la persona seleccionada de la lista gráfica */
             }
+        }
+        
+        private void borrarLista() {
+            lista.borrarLista(); // Se eliminan todas las personas del vector
+            modelo.clear(); // Limpia el JList, la lista gráfica de personas
         }
 }

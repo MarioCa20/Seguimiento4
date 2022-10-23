@@ -11,7 +11,7 @@ public class ApartamentoFamiliar extends Apartamento {
 
     void imprimir() {
         super.imprimir();
-        System.out.println("Valor de la administración = $" + valorAdministracion);
+        System.out.println("Valor de la administracion = $" + valorAdministracion);
         System.out.println();
     }
 }
